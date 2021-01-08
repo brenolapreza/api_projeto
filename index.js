@@ -8,6 +8,6 @@ app.use(cors())
 app.use(express.json())
 app.use(router)
 
-app.listen(process.env.port||4001, () => {
+app.listen(process.env.PORT || 4001, () => {
     console.log("Aplicação funcionando beleza!")
 })
